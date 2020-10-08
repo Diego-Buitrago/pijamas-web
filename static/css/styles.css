@@ -159,6 +159,10 @@ nav > ul > li:hover > ul > li{
     display: block;
 }
 
+nav > ul > li:active > ul > li{
+    display: block;
+}
+
 /*Estilos contenido central*/
 
 #content{
