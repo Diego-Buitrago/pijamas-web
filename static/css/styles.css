@@ -84,7 +84,7 @@ body{
 /*Estilos cabecera*/
 
 header{
-    width: 1212px;
+    width: 1330px;
     height: 140px;
     background-color: #e2f0d9;
     margin: 0 auto;
@@ -116,9 +116,8 @@ header{
 /*Estilos barra navegacion*/
 
 nav{
-    position: fixed;
-    width: 186px;
-    height: auto;
+    width: 1360px;
+    height: 40px;
     margin: auto;
     background-color: #5b9bd5;
     border: solid #333333;
@@ -133,12 +132,13 @@ nav  ul{
 
 nav > ul > li{
     line-height: 40px;
+    float: left;
 }
 
 nav  ul  li  a{
     display: block;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 9px;
+    padding-right: 9px;
     color: black;
     font-weight: bold;
 }
@@ -156,12 +156,13 @@ nav > ul > li > ul > li{
 }
 
 
-nav > ul > li:hover > ul > li{
-    display: block;
-}
 
 nav > ul > li:active > ul > li{
     display: block;
+}
+
+.submenu{
+    display: flexbox;
 }
 
 /*Estilos contenido central*/
@@ -179,7 +180,6 @@ nav > ul > li:active > ul > li{
     width: 95%;
     min-height: 700px;
     padding: 20px;
-    padding-left: 185px;
     border: 1px solid #ddd;
     border-radius: 2px;
     margin: 0 auto;
